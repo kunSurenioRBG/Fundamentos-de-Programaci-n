@@ -107,7 +107,7 @@ bool filasValidas(const TMatriz &m, int valorSuma)
     bool correcta = true;
     int fila = 0;
 
-    // itero con while -> cuando no encuentre una fila valida, correcta = false y dejo de iterar
+    // itero con while -> cuanWdo no encuentre una fila valida, correcta = false y dejo de iterar
     while (fila < N && correcta)
     {
         correcta = filaValida(m[fila], valorSuma);
