@@ -56,9 +56,9 @@ int mediaVecinos(int i, int j, const TMatrizT &m2, int media)
 {
     int suma = 0, vecinos = 0;
 
-    for (int fila = i - 1; fila < i + 1; fila++)
+    for (int fila = i - 1; fila <= i + 1; fila++)
     {
-        for (int columna = j - 1; columna < j + 1; columna++)
+        for (int columna = j - 1; columna <= j + 1; columna++)
         {
             if (celdaValida(fila, columna) && !(fila == i && columna == j))
             {
